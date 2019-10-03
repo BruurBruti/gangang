@@ -1,0 +1,163 @@
+/****************************** HTML-TAGS ******************************/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  color: #66BFBF;
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 10px;
+  border-bottom: none;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6%;
+}
+
+img {
+  border-radius: 5%;
+}
+
+a {
+  color: #11999E;
+}
+
+/******************************** CLASS ********************************/
+.top-container {
+  background-color: #c7f0db;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.intro {
+  width: 70%;
+  margin: auto;
+}
+
+.Louis {
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.justice {
+  border-radius: 100%;
+  float: right;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.debatwedstrijd {
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.contact-me {
+  width: 40%;
+  line-height: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin: 20px;
+  line-height: 2;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
